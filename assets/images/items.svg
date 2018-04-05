@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="11px" viewBox="0 0 13 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Items Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-631.000000, -303.000000)" fill="#4d4d4d">
+            <g id="Content" transform="translate(120.000000, 105.000000)">
+                <g id="Grid">
+                    <g id="Item" transform="translate(308.000000, 0.000000)">
+                        <g id="Info" transform="translate(0.000000, 194.000000)">
+                            <g id="Meta" transform="translate(203.000000, 2.000000)">
+                                <g id="1">
+                                    <path d="M6.28560204,12.2142997 L1.7538794,9.85719898 L0,9.85719898 L6.28560204,13 L12.5712041,9.85719898 L10.8173247,9.85719898 L6.28560204,12.2142997 L6.28560204,12.2142997 Z M6.28560204,2.78393243 L10.9998036,5.05440974 L6.28560204,7.50009821 L1.57140051,5.05440974 L6.28560204,2.78393243 L6.28560204,2.78393243 Z M12.5712041,5.14299745 L6.28560204,2 L0,5.14299745 L6.28560204,8.28579847 L12.5712041,5.14299745 L12.5712041,5.14299745 Z M6.28560204,9.85719898 L1.7538794,7.50009821 L0,7.50009821 L6.28560204,10.6428992 L12.5712041,7.50009821 L10.8173247,7.50009821 L6.28560204,9.85719898 L6.28560204,9.85719898 Z" id="Items-Copy"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

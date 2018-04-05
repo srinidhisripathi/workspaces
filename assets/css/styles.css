@@ -1,0 +1,146 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.menu-left {
+  width: 100px;
+  background-color: #fff2e6;
+  display: inline-block;
+  float: left;
+  position: fixed;
+}
+
+.logo {
+  font-size: 40px;
+  color: purple;
+  font-weight: 800;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.slider {
+  padding-left: 37px;
+}
+
+.menu-left.bottom {
+  text-align: center;
+  padding-top: 470px;
+  box-sizing: border-box;
+}
+
+.photo {
+  display: inline-block;
+  background-color: black;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.menu-left.bottom > ul > li {
+  padding-bottom: 20px;
+}
+
+.menu-left.bottom > ul > li:last-child {
+  padding-bottom: 0;
+}
+
+.menu-top {
+  width: 1340px;
+  display: inline;
+  box-sizing: border-box;
+  float: right;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.logo-text {
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 2;
+
+}
+.menu-top > ul {
+  padding: 0 500px;
+}
+
+.menu-top > ul > li {
+  float: left;
+  padding-right: 35px;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.menu-top > ul > li:last-child {
+  padding-right: 0;
+}
+
+.menu-top > ul > li > a {
+  float: left;
+  text-decoration: none;
+  color: black;
+}
+
+.menu-top > ul > li > a:hover {
+  color: purple;
+}
+
+.container {
+  width: 1340px;
+  margin-left: auto;
+  padding: 20px 200px 20px 100px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.profile {
+  display: inline-block;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 25px;
+  margin-bottom: 25px;
+
+
+}
+
+.profile:nth-child(3n){
+  margin-right: 0;
+}
+
+.image {
+  display: block;
+  background-color: pink;
+  height: 190px;
+  width: 325px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.photo2 {
+  display: inline-block;
+  margin-top: -25px;
+  margin-left: 134.5px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: black;
+  border: 3px solid white;
+}
+.info {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.designation {
+  font-size: 13px;
+  color: grey;
+}
