@@ -12,7 +12,7 @@
 
     <div class="menu-left">
       <div class="logo">W</div>
-      <div class="slider"><a href="#"><img src="assets/images/slider.png" width="25px" height="25px"/></a></div>
+      <div class="slider" style="font-size:30px;cursor:pointer" onclick="openNav()"><img src="assets/images/slider.png" width="25px" height="25px"/></div>
       <div class="menu-left bottom">
         <ul>
           <li class="items"><a href="#"><img src="assets/images/items.svg" width="30px" height="30px" /></a></li>
@@ -21,6 +21,68 @@
         </ul>
       </div>
     </div>
+    <div id="mySidenav" class="sidenav">
+      <div class="opac-menu">
+        <div class="logo-openNav">W</div>
+        <div class="slider"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></div>
+        <div class="opac-menu-left bottom">
+          <ul>
+            <li class="items"><a href="#"><img src="assets/images/items.svg" width="30px" height="30px" /></a></li>
+            <li class="likes"><a href="#"><img src="assets/images/likes.svg" width="30px" height="30px" /></a></li>
+            <li><a href="#" class="photo"></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="search-and-menu">
+        <form>
+          <input type="search" class="search" placeholder="Search"/>
+        </form>
+
+        <div class="explore">
+          <h1>EXPLORE</h1>
+          <ul>
+            <li><a href="#">Workspaces</a></li>
+            <li><a href="#">Tags</a></li>
+            <li><a href="#">Skills</a></li>
+          </ul>
+        </div>
+
+        <div class="items">
+          <h1>ITEMS</h1>
+          <ul>
+            <li><a href="#" class="item1"><img src="assets/images/macbook.png" height=20px width=25px /></a></li>
+            <li><a href="#" class="item2"><img src="assets/images/dell.png" height=20px width=25px /></a></li>
+            <li><a href="#" class="item3"><img src="assets/images/logitech.png" height=22px width=20px /></a></li>
+          </ul>
+          <ul>
+            <li><a href="#" class="item4"><img src="assets/images/macbook.png" height=20px width=25px /></a></li>
+            <li><a href="#" class="item5"><img src="assets/images/dell.png" height=20px width=25px /></a></li>
+            <li><a href="#" class="item6"><img src="assets/images/logitech.png" height=22px width=20px /></a></li>
+          </ul>
+          <ul>
+            <li><a href="#" class="item7"><img src="assets/images/macbook.png" height=20px width=25px /></a></li>
+            <li><a href="#" class="item8"><img src="assets/images/dell.png" height=20px width=25px /></a></li>
+            <li><a href="#" class="item9"><img src="assets/images/logitech.png" height=22px width=20px /></a></li>
+          </ul>
+          <ul>
+            <li><a href="#" class="item10"><img src="assets/images/macbook.png" height=20px width=25px /></a></li>
+            <li><a href="#" class="item11"><img src="assets/images/dell.png" height=20px width=25px /></a></li>
+            <li><a href="#" class="item12"><img src="assets/images/logitech.png" height=22px width=20px /></a></li>
+          </ul>
+        </div>
+      </div>
+
+        <div class="footer">
+          <h1>&copy; 2015 Workspaces.</h1>
+          <p>
+            All workspaces copyright of their <br />
+            respective owners.
+          </p>
+        </div>
+
+    </div>
+
 
     <div class="menu-top">
       <span class="logo-text">Workspaces</span>
@@ -164,8 +226,18 @@
         </div>
       </li>
     </ul>
-    
+
 </div>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "380px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
 
 
 </body>
